@@ -1,0 +1,10 @@
+title: "משחק היצירה"
+description: "גרסה ראשונה לקריאה — The Game of Creation"
+lang: he
+dir: rtl
+url: "https://aharonyaircohen.github.io"
+baseurl: "/The-game-of-creation-book"
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
