@@ -1,23 +1,11 @@
-# The Game of Creation
+# The Digital Reality Web Book
 
-Public web-book edition of **משחק היצירה**.
+Public web-book reader for the book currently titled **משחק היצירה**. This repository contains the web edition under `chapters/`, together with the Jekyll reader, layouts, assets, and site configuration.
 
-This repository contains only the approved first-version manuscript and the mobile web reader. Research notes and working drafts remain in the private source repository.
+The private [digital-reality-source](https://github.com/aharonyaircohen/digital-reality-source) repository contains the original working material and the Markdown manuscript in `book/`. The chapter files here are a separate publication copy. Compare changes between the manuscript and this web edition deliberately; neither copy automatically updates the other.
 
-## Publish with GitHub Pages
+## GitHub Pages
 
-In this repository:
+This repository uses Jekyll. The repository is now named `digital-reality-web-book`. The expected repository Pages path is `https://aharonyaircohen.github.io/digital-reality-web-book/`; check GitHub Pages settings and the current `_config.yml` base URL before treating that path as the working public URL.
 
-**Settings → Pages → Build and deployment → Deploy from a branch**
-
-Choose:
-- Branch: `main`
-- Folder: `/ (root)`
-
-Then save.
-
-Expected public URL:
-
-https://aharonyaircohen.github.io/The-game-of-creation-book/
-
-The site uses Jekyll, RTL Hebrew layout, responsive mobile typography, dark mode, text-size controls, reading progress, table of contents, and previous/next chapter navigation.
+Reader features include RTL Hebrew layout, mobile typography, dark mode, text-size controls, reading progress, table of contents, and chapter navigation.
